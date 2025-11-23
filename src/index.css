@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Caveira Military Theme - Dark Cinematographic */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
+
+    --card: 0 0% 17%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 96%;
+
+    /* Golden Caveira - Primary */
+    --primary: 43 88% 38%;
+    --primary-foreground: 0 0% 4%;
+
+    /* Steel Gray - Secondary */
+    --secondary: 0 0% 17%;
+    --secondary-foreground: 0 0% 96%;
+
+    /* Tactical Red - Accent */
+    --accent: 353 85% 44%;
+    --accent-foreground: 0 0% 96%;
+
+    --muted: 0 0% 17%;
+    --muted-foreground: 0 0% 72%;
+
+    --destructive: 353 85% 44%;
+    --destructive-foreground: 0 0% 96%;
+
+    --border: 0 0% 17%;
+    --input: 0 0% 17%;
+    --ring: 43 88% 38%;
+
+    --radius: 0.5rem;
+
+    /* Custom Caveira Colors */
+    --caveira-black: 0 0% 4%;
+    --caveira-steel: 0 0% 17%;
+    --caveira-gold: 43 88% 38%;
+    --caveira-red: 353 85% 44%;
+    --caveira-white: 0 0% 96%;
+    --caveira-gray: 0 0% 72%;
+    
+    /* Gradient tokens - Luxury Metallic */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 4%) 0%, hsl(0 0% 12%) 30%, hsl(0 0% 8%) 60%, hsl(0 0% 4%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(38 90% 32%) 0%, hsl(43 88% 38%) 25%, hsl(45 100% 50%) 50%, hsl(43 88% 38%) 75%, hsl(38 90% 32%) 100%);
+    --gradient-tactical: linear-gradient(90deg, hsl(353 85% 44% / 0.2) 0%, transparent 100%);
+    --gradient-steel: linear-gradient(180deg, hsl(0 0% 12%) 0%, hsl(0 0% 17%) 50%, hsl(0 0% 12%) 100%);
+    --gradient-metallic: linear-gradient(135deg, hsl(0 0% 25%) 0%, hsl(0 0% 35%) 25%, hsl(0 0% 45%) 50%, hsl(0 0% 35%) 75%, hsl(0 0% 25%) 100%);
+    --gradient-gold-radial: radial-gradient(circle at center, hsl(43 88% 38% / 0.3) 0%, transparent 70%);
+    --gradient-luxury: linear-gradient(135deg, hsl(0 0% 4%) 0%, hsl(0 0% 10%) 20%, hsl(43 88% 38% / 0.05) 50%, hsl(0 0% 10%) 80%, hsl(0 0% 4%) 100%);
+    
+    /* Shadow tokens - Premium Depth */
+    --shadow-gold: 0 0 30px hsl(43 88% 38% / 0.3), 0 0 60px hsl(43 88% 38% / 0.15);
+    --shadow-gold-intense: 0 0 40px hsl(43 88% 38% / 0.5), 0 0 80px hsl(43 88% 38% / 0.25), 0 20px 60px hsl(0 0% 0% / 0.6);
+    --shadow-red: 0 0 20px hsl(353 85% 44% / 0.4), 0 0 40px hsl(353 85% 44% / 0.2);
+    --shadow-deep: 0 20px 50px hsl(0 0% 0% / 0.8), 0 10px 30px hsl(0 0% 0% / 0.5);
+    --shadow-metallic: inset 0 1px 0 hsl(0 0% 100% / 0.1), 0 2px 8px hsl(0 0% 0% / 0.4);
+    --shadow-inset-luxury: inset 0 2px 4px hsl(0 0% 0% / 0.3), inset 0 -2px 4px hsl(0 0% 100% / 0.05);
+    
+    /* Animation tokens */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-glow: all 0.5s ease;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
