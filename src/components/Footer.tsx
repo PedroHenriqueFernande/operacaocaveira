@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="inline-flex items-center gap-4 mb-8 group cursor-pointer">
             <Shield className="w-16 h-16 text-caveira-gold group-hover:scale-110 transition-transform duration-300" />
             <div className="text-left">
-              <div className="text-2xl font-black text-caveira-gold">CAVEIRA</div>
+              <div className="text-2xl font-black text-caveira-gold">Operação Guarda Municipal</div>
               <div className="text-sm text-caveira-gray">Direito Administrativo</div>
             </div>
           </div>
@@ -36,7 +36,7 @@ export const Footer = () => {
 
           {/* Legal */}
           <div className="mt-8 text-caveira-gray text-sm space-y-2">
-            <p>© 2024 Curso Caveira de Direito Administrativo. Todos os direitos reservados.</p>
+            <p>© 2026 Curso para guarda municipal de Direito Administrativo. Todos os direitos reservados.</p>
             <div className="flex justify-center gap-6 text-xs">
               <a href="#" className="hover:text-caveira-gold transition-colors duration-300">Termos de Uso</a>
               <span>•</span>

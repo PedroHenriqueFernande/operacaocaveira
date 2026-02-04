@@ -1,42 +1,81 @@
-import { BookOpen, CheckCircle, FileText, Shield, Target, Video } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const missions = [
   {
-    icon: Target,
-    title: "Módulo 1: Princípios Fundamentais",
-    description: "Base sólida dos princípios constitucionais e administrativos",
-    items: ["LIMPE", "Supremacia do Interesse Público", "Regime Jurídico"]
-  },
-  {
-    icon: Shield,
-    title: "Módulo 2: Organização Administrativa",
-    description: "Estrutura, órgãos públicos e administração indireta",
-    items: ["Autarquias", "Fundações", "Empresas Públicas", "Sociedades de Economia Mista"]
-  },
-  {
-    icon: FileText,
-    title: "Módulo 3: Atos Administrativos",
-    description: "Teoria completa e questões de concursos",
-    items: ["Conceito e Elementos", "Atributos", "Classificação", "Extinção"]
+    icon: BookOpen,
+    title: "MÓDULO 1 – Conceito",
+    description: ""
   },
   {
     icon: BookOpen,
-    title: "Módulo 4: Licitações e Contratos",
-    description: "Nova Lei 14.133/21 descomplicada",
-    items: ["Modalidades", "Dispensa e Inexigibilidade", "Contratos Administrativos"]
+    title: "MÓDULO 2 – Fontes",
+    description: ""
   },
   {
-    icon: CheckCircle,
-    title: "Módulo 5: Agentes Públicos",
-    description: "Regime jurídico, direitos e deveres",
-    items: ["Classificação", "Regime Estatutário", "Direitos e Deveres", "Responsabilidade"]
+    icon: BookOpen,
+    title: "MÓDULO 3 – Sistema administrativo.",
+    description: ""
   },
   {
-    icon: Video,
-    title: "Módulo 6: Resolução de Questões",
-    description: "Bateria intensiva com questões de concursos reais",
-    items: ["FCC", "CESPE/CEBRASPE", "FGV", "Vunesp"]
+    icon: BookOpen,
+    title: "MÓDULO 4 – Direito público x Direito privado",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 5 – Princípios Explícitos da Administração pública",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 6 – Princípios Implícitos da Administração pública",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 7 – Poderes Administrativos",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 8 – Ato Administrativo",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 9 – Improbidade Administrativa",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 10 – Agentes públicos",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 11 – Noções de organização administrativa. Administração direta e indireta, centralizada e descentralizada. Desconcentração. Autarquia, Fundação, Empresa Pública e Sociedade de Economia Mista. Órgãos Públicos",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 12 – Bens públicos",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 13 – Responsabilidade Civil do Estado",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 14 – Lei 12.527/2011 - Lei de Acesso à Informação",
+    description: ""
+  },
+  {
+    icon: BookOpen,
+    title: "MÓDULO 15 – Lei 13.709/2018 - Lei Geral de Proteção de Dados",
+    description: ""
   }
 ];
 
@@ -73,7 +112,7 @@ export const CourseSection = () => {
             }}>CAVEIRA</span>
           </h2>
           <p className="text-caveira-gray text-lg max-w-2xl mx-auto">
-            Treinamento completo em módulos estratégicos para dominar Direito Administrativo
+            Você terá acesso aos principais pontos cobrados no edital:
           </p>
           <div className="relative w-24 h-1 mx-auto mt-4 overflow-hidden">
             <div className="absolute inset-0" style={{ background: 'var(--gradient-gold)' }}></div>
@@ -132,15 +171,7 @@ export const CourseSection = () => {
                   {mission.description}
                 </p>
 
-                {/* Items */}
-                <ul className="space-y-2 relative z-10">
-                  {mission.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="flex items-start gap-2 text-sm text-caveira-white">
-                      <CheckCircle className="w-4 h-4 text-caveira-gold mt-0.5 flex-shrink-0" style={{ filter: 'drop-shadow(0 0 5px hsl(43 88% 38% / 0.5))' }} />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
+
 
                 {/* Hover Border Effect */}
                 <div className="absolute bottom-0 left-0 w-full h-1 overflow-hidden transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500">
@@ -151,24 +182,7 @@ export const CourseSection = () => {
           })}
         </div>
 
-        {/* Extra Benefits */}
-        <div className="mt-16 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          <div className="text-center p-6 bg-caveira-steel/30 rounded-lg border border-caveira-gold/20 animate-fade-in">
-            <Video className="w-12 h-12 text-caveira-gold mx-auto mb-4" />
-            <h4 className="font-bold text-caveira-white mb-2">Videoaulas HD</h4>
-            <p className="text-caveira-gray text-sm">Acesso vitalício às aulas</p>
-          </div>
-          <div className="text-center p-6 bg-caveira-steel/30 rounded-lg border border-caveira-gold/20 animate-fade-in" style={{ animationDelay: "100ms" }}>
-            <FileText className="w-12 h-12 text-caveira-gold mx-auto mb-4" />
-            <h4 className="font-bold text-caveira-white mb-2">Material PDF</h4>
-            <p className="text-caveira-gray text-sm">Apostilas e resumos exclusivos</p>
-          </div>
-          <div className="text-center p-6 bg-caveira-steel/30 rounded-lg border border-caveira-gold/20 animate-fade-in" style={{ animationDelay: "200ms" }}>
-            <Shield className="w-12 h-12 text-caveira-gold mx-auto mb-4" />
-            <h4 className="font-bold text-caveira-white mb-2">Suporte Direto</h4>
-            <p className="text-caveira-gray text-sm">Tire dúvidas com o professor</p>
-          </div>
-        </div>
+
       </div>
     </section>
   );

@@ -82,7 +82,7 @@ export const OfferSection = () => {
               {/* Price */}
               <div className="mb-8">
                 <div className="text-caveira-gray text-xl line-through mb-2">
-                  De R$ 997,00
+                  De R$ 197,00
                 </div>
                 <div className="text-5xl md:text-7xl font-black mb-2 animate-glow-pulse" style={{ 
                   background: 'var(--gradient-gold)',
@@ -91,10 +91,10 @@ export const OfferSection = () => {
                   backgroundClip: 'text',
                   textShadow: 'var(--shadow-gold)'
                 }}>
-                  R$ 497,00
+                  R$ 147,00
                 </div>
                 <div className="text-caveira-white text-lg">
-                  ou 12x de R$ 49,90
+                  ou 12x de R$ 15,20
                 </div>
               </div>
 

@@ -1,6 +1,4 @@
-import { Award, BookOpen, Target, Users } from "lucide-react";
-import professorImage from "@/assets/professor-alessandro.jpg";
-import { Card } from "@/components/ui/card";
+import { Award, BookOpen, Flame, Target, Users } from "lucide-react";
 
 const highlights = [
   {
@@ -41,16 +39,23 @@ export const ProfessorSection = () => {
 
       <div className="relative container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <span className="text-caveira-gold font-bold text-sm tracking-widest uppercase" style={{ textShadow: 'var(--shadow-gold)' }}>O Comandante</span>
+          <span className="text-caveira-gold font-bold text-sm tracking-widest uppercase" style={{ textShadow: 'var(--shadow-gold)' }}>Olá! Eu sou o Alessandro Melo</span>
           <h2 className="text-4xl md:text-6xl font-black mt-2 mb-4">
-            PROFESSOR <span className="relative inline-block" style={{ 
+            Professor de Direito Administrativo, especialista em concursos públicos e apaixonado por <span className="relative inline-block" style={{ 
               background: 'var(--gradient-gold)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
               textShadow: 'none'
-            }}>ALESSANDRO MELO</span>
+            }}>ensinar</span>.
           </h2>
+          <div className="flex justify-center my-8">
+            <img 
+              src="/5.jpg" 
+              alt="Professor Alessandro Melo - Tactical" 
+              className="w-full max-w-lg h-auto rounded-lg shadow-lg border-2 border-caveira-gold/50"
+            />
+          </div>
           <div className="relative w-24 h-1 mx-auto overflow-hidden">
             <div className="absolute inset-0" style={{ background: 'var(--gradient-gold)' }}></div>
             <div className="absolute inset-0 animate-metallic-shine" style={{ 
@@ -60,81 +65,34 @@ export const ProfessorSection = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-          {/* Professor Image - Luxury Frame */}
-          <div className="relative group animate-fade-in">
-            <div className="absolute inset-0 blur-xl group-hover:blur-2xl transition-all duration-500" style={{ background: 'var(--gradient-gold-radial)' }}></div>
-            <div className="relative overflow-hidden rounded-lg h-96 bg-caveira-steel/50">
-              {/* Metallic Border Effect */}
-              <div className="absolute inset-0 rounded-lg" style={{ 
-                background: 'var(--gradient-metallic)',
-                padding: '2px'
-              }}>
-                <div className="w-full h-full bg-caveira-steel/80 rounded-lg"></div>
-              </div>
-              {/* Inner Glow */}
-              <div className="absolute inset-0" style={{ background: 'var(--gradient-luxury)' }}></div>
-              {/* Shine Effect */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
-                <div className="absolute inset-0 bg-gradient-to-br from-transparent via-caveira-gold/10 to-transparent animate-shine"></div>
-              </div>
-            </div>
-          </div>
-
-          {/* Highlights */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-fade-in">
-            {highlights.map((item, index) => {
-              const Icon = item.icon;
-              return (
-                <Card 
-                  key={index}
-                  className="group relative backdrop-blur-sm p-6 transition-all duration-300 cursor-pointer overflow-hidden"
-                  style={{ 
-                    animationDelay: `${index * 100}ms`,
-                    background: 'linear-gradient(135deg, hsl(0 0% 17% / 0.5) 0%, hsl(0 0% 12% / 0.8) 100%)',
-                    boxShadow: 'var(--shadow-deep)'
-                  }}
-                >
-                  {/* Metallic Border */}
-                  <div className="absolute inset-0 rounded-lg opacity-50 group-hover:opacity-100 transition-opacity duration-300" style={{ 
-                    background: 'linear-gradient(135deg, hsl(43 88% 38% / 0.3) 0%, transparent 50%, hsl(43 88% 38% / 0.3) 100%)',
-                    padding: '1px'
-                  }}>
-                    <div className="w-full h-full bg-transparent rounded-lg"></div>
-                  </div>
-                  {/* Corner Accent */}
-                  <div className="absolute top-0 right-0 w-20 h-20 rounded-bl-full overflow-hidden">
-                    <div style={{ background: 'var(--gradient-gold)', opacity: 0.1 }} className="w-full h-full"></div>
-                  </div>
-                  {/* Shine Effect */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <div className="absolute inset-0 bg-gradient-to-br from-transparent via-caveira-gold/5 to-transparent animate-shine"></div>
-                  </div>
-                  <Icon className="w-10 h-10 text-caveira-gold mb-4 group-hover:scale-110 transition-transform duration-300 relative z-10" style={{ filter: 'drop-shadow(0 0 10px hsl(43 88% 38% / 0.5))' }} />
-                  <h3 className="font-bold text-lg mb-2 text-caveira-white relative z-10">{item.title}</h3>
-                  <p className="text-caveira-gray text-sm relative z-10">{item.description}</p>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
-
-        <div className="mt-16 text-center max-w-3xl mx-auto animate-fade-in">
-          <p className="text-caveira-white text-lg leading-relaxed">
-            Com vasta experiência na preparação de candidatos para concursos públicos na área de segurança, 
-            Alessandro Melo desenvolveu o método <span className="font-bold" style={{ 
-              background: 'var(--gradient-gold)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text'
-            }}>CAVEIRA</span>, 
-            focado em <span className="font-bold" style={{ 
-              background: 'var(--gradient-gold)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text'
-            }}>resultados concretos</span> e aprovação.
+        <div className="max-w-4xl mx-auto mt-8 text-center animate-fade-in">
+          <p className="text-xl text-caveira-white leading-relaxed mb-6">
+            Há mais de 10 anos, ajudo alunos a transformar o Direito Administrativo em uma matéria simples, lógica e fácil de entender.
           </p>
+          <p className="text-lg text-caveira-gray leading-relaxed mb-6">
+            Minha didática já fez milhares de concurseiros alcançarem o tão sonhado cargo público e agora chegou a sua vez.
+          </p>
+          <p className="text-lg text-caveira-gray leading-relaxed mb-8">
+            Já ajudei milhares de alunos a conquistarem sua vaga no serviço público.
+          </p>
+
+          <p className="text-xl text-caveira-gold font-bold leading-relaxed mb-12">
+            Se você quer estudar de forma direcionada, sem perder tempo com o que não cai na prova, e finalmente conquistar sua aprovação, clique agora no botão abaixo e descubra como meu método pode te levar direto à sua vaga!
+          </p>
+          
+          {/* CTA Button - Luxury Metallic */}
+          <a href="#oferta">
+            <button className="group relative px-12 py-6 rounded-lg font-black text-xl uppercase tracking-wider transition-all duration-300 animate-fade-in flex items-center gap-3 mx-auto overflow-hidden" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
+              <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
+              <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
+              </div>
+              <Flame className="w-6 h-6 animate-pulse relative z-10 text-caveira-black" />
+              <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>QUERO SER APROVADO</span>
+              <Flame className="w-6 h-6 animate-pulse relative z-10 text-caveira-black" />
+            </button>
+          </a>
         </div>
       </div>
     </section>

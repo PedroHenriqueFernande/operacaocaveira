@@ -1,4 +1,5 @@
 import { Shield } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export const GuaranteeSection = () => {
   return (
@@ -21,25 +22,34 @@ export const GuaranteeSection = () => {
           </div>
 
           <h2 className="text-4xl md:text-6xl font-black mb-6">
-            GARANTIA <span className="text-caveira-gold">CAVEIRA</span>
+            GARANTIA <span className="text-caveira-gold">INCONDICIONAL</span>
           </h2>
 
           <div className="bg-caveira-black/50 border-2 border-caveira-gold/30 rounded-2xl p-10 backdrop-blur-sm">
             <p className="text-xl md:text-2xl text-caveira-white leading-relaxed mb-6">
-              Você tem <span className="text-caveira-gold font-bold text-3xl">7 dias</span> de garantia incondicional.
+              Risco Zero - Teste por 7 Dias, ofereço a você 7 dias de garantia incondicional.
             </p>
             
             <p className="text-lg text-caveira-gray leading-relaxed mb-6">
-              Se por qualquer motivo você não ficar satisfeito com o curso, 
-              basta solicitar o reembolso completo dentro deste prazo. 
-              Sem perguntas, sem burocracia.
+              Se por qualquer motivo você não gostar do curso, não se adaptar à metodologia, ou simplesmente mudar de ideia, basta enviar um e-mail que devolvo 100% do seu investimento.
             </p>
 
             <div className="pt-6 border-t border-caveira-gold/20">
               <p className="text-caveira-white font-bold text-xl">
-                O risco é todo nosso. A aprovação é toda sua.
+                Sem perguntas, sem burocracia.
+              </p>
+              <p className="text-caveira-white font-bold text-xl">
+                É minha forma de dizer: "Eu confio tanto neste método que assumo todo o risco por você."
               </p>
             </div>
+          </div>
+
+          <div className="mt-8">
+            <a href="#oferta">
+              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-colors duration-300 transform hover:scale-105 shadow-lg">
+                GARANTIR MEU ACESSO
+              </Button>
+            </a>
           </div>
 
           {/* Trust Elements */}
