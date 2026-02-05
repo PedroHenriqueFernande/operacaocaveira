@@ -76,7 +76,7 @@ export const OfferSection = () => {
                 }}>TROPA</span>
               </h2>
               <p className="text-xl text-caveira-gray mb-8">
-                Garanta sua vaga no Curso Caveira de Direito Administrativo
+                Garanta sua vaga no Curso para Guarda Municipal de Direito Administrativo
               </p>
 
               {/* Price */}

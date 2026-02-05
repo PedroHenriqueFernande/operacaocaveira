@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
             MISSÃO <span className="text-caveira-gold">CUMPRIDA</span>
           </h2>
           <p className="text-caveira-gray text-lg max-w-2xl mx-auto">
-            Depoimentos de soldados que alcançaram a aprovação
+            Depoimentos de guerreiros que alcançaram a aprovação
           </p>
           <div className="w-24 h-1 bg-caveira-gold mx-auto mt-4"></div>
         </div>

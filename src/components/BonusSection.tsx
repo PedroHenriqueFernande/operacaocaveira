@@ -17,11 +17,7 @@ const bonuses = [
     title: "Edital Verticalizado",
     description: "(quando publicado)"
   },
-  {
-    icon: CheckCircle,
-    title: "Lives Semanais no YouTube",
-    description: ""
-  },
+
   {
     icon: CheckCircle,
     title: "Legislação em PDF",
@@ -37,11 +33,7 @@ const bonuses = [
     title: "Acesso ao Grupo Exclusivo de WhatsApp",
     description: ""
   },
-  {
-    icon: CheckCircle,
-    title: "Suporte direto com professor",
-    description: ""
-  }
+
 ];
 
 export const BonusSection = () => {

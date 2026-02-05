@@ -52,11 +52,7 @@ const missions = [
     title: "MÓDULO 10 – Agentes públicos",
     description: ""
   },
-  {
-    icon: BookOpen,
-    title: "MÓDULO 11 – Noções de organização administrativa. Administração direta e indireta, centralizada e descentralizada. Desconcentração. Autarquia, Fundação, Empresa Pública e Sociedade de Economia Mista. Órgãos Públicos",
-    description: ""
-  },
+
   {
     icon: BookOpen,
     title: "MÓDULO 12 – Bens públicos",
@@ -102,7 +98,7 @@ export const CourseSection = () => {
 
       <div className="relative container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <span className="text-caveira-gold font-bold text-sm tracking-widest uppercase" style={{ textShadow: 'var(--shadow-gold)' }}>O Arsenal</span>
+          <span className="text-caveira-gold font-bold text-sm tracking-widest uppercase" style={{ textShadow: 'var(--shadow-gold)' }}>OPERAÇÃO GUARDA MUNICIPAL</span>
           <h2 className="text-4xl md:text-6xl font-black mt-2 mb-4">
             MISSÕES <span style={{ 
               background: 'var(--gradient-gold)',

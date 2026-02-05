@@ -24,11 +24,6 @@ const benefits = [
   },
   {
     icon: CheckCircle,
-    title: "Atualizado com as últimas tendências",
-    description: "Da banca examinadora"
-  },
-  {
-    icon: CheckCircle,
     title: "Atualização constante",
     description: "Em até 6 (seis) meses ou até a data da prova, o que ocorrer primeiro"
   },

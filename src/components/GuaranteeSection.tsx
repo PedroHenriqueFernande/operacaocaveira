@@ -21,24 +21,24 @@ export const GuaranteeSection = () => {
             </div>
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-black mb-6">
+          <h2 className="text-4xl md:text-6xl font-black mb-6 text-left">
             GARANTIA <span className="text-caveira-gold">INCONDICIONAL</span>
           </h2>
 
           <div className="bg-caveira-black/50 border-2 border-caveira-gold/30 rounded-2xl p-10 backdrop-blur-sm">
-            <p className="text-xl md:text-2xl text-caveira-white leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl text-caveira-white leading-relaxed mb-6 text-left">
               Risco Zero - Teste por 7 Dias, ofereço a você 7 dias de garantia incondicional.
             </p>
             
-            <p className="text-lg text-caveira-gray leading-relaxed mb-6">
+            <p className="text-lg text-caveira-gray leading-relaxed mb-6 text-left">
               Se por qualquer motivo você não gostar do curso, não se adaptar à metodologia, ou simplesmente mudar de ideia, basta enviar um e-mail que devolvo 100% do seu investimento.
             </p>
 
             <div className="pt-6 border-t border-caveira-gold/20">
-              <p className="text-caveira-white font-bold text-xl">
+              <p className="text-caveira-white font-bold text-xl text-left">
                 Sem perguntas, sem burocracia.
               </p>
-              <p className="text-caveira-white font-bold text-xl">
+              <p className="text-caveira-white font-bold text-xl text-left">
                 É minha forma de dizer: "Eu confio tanto neste método que assumo todo o risco por você."
               </p>
             </div>
@@ -46,7 +46,7 @@ export const GuaranteeSection = () => {
 
           <div className="mt-8">
             <a href="#oferta">
-              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-colors duration-300 transform hover:scale-105 shadow-lg">
+              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-colors duration-300 transform hover:scale-105 shadow-lg animate-button-pulse">
                 GARANTIR MEU ACESSO
               </Button>
             </a>

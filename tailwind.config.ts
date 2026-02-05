@@ -103,6 +103,10 @@ export default {
           "50%": { filter: "brightness(1.3)" },
           "100%": { transform: "rotate(360deg)", filter: "brightness(1)" },
         },
+        "button-pulse": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.05)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -115,6 +119,7 @@ export default {
         "shine": "shine 3s ease-in-out infinite",
         "metallic-shine": "metallic-shine 8s linear infinite",
         "glow-rotate": "glow-rotate 10s linear infinite",
+        "button-pulse": "button-pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
     },
   },
