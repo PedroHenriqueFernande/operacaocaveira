@@ -2,7 +2,7 @@ import { Flame, Shield } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-x-hidden bg-caveira-black">
+    <section className="relative min-h-screen bg-caveira-black">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
