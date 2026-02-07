@@ -22,7 +22,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0" style={{ background: 'radial-gradient(circle at 30% 50%, hsl(43 88% 38% / 0.1) 0%, transparent 50%)', filter: 'blur(60px)' }}></div>
       </div>
 
-      <div className="relative z-10 w-full px-4 md:px-16 lg:px-20 min-h-screen flex flex-col">
+      <div className="relative z-10 w-full px-4 md:px-16 lg:px-20 flex flex-col">
         {/* Badge Centralizado no Topo */}
         <div className="w-full flex justify-center pt-8 animate-fade-in">
           <div className="relative inline-flex items-center gap-2 px-6 py-3 rounded-full overflow-hidden group">
