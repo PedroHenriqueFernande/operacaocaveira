@@ -36,9 +36,9 @@ export const InvestmentSection = () => {
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
               </div>
-              <Flame className="w-5 h-5 md:w-6 md:h-6 animate-pulse relative z-10 text-caveira-black" />
+              <Flame className="w-5 h-5 md:w-6 md:h-6 animate-pulse-soft relative z-10 text-caveira-black" />
               <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>GARANTIR MINHA VAGA AGORA</span>
-              <Flame className="w-5 h-5 md:w-6 md:h-6 animate-pulse relative z-10 text-caveira-black" />
+              <Flame className="w-5 h-5 md:w-6 md:h-6 animate-pulse-soft relative z-10 text-caveira-black" />
             </Button>
           </a>
         </div>

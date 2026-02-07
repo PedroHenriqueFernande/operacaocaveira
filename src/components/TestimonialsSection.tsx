@@ -40,7 +40,7 @@ export const TestimonialsSection = () => {
         <div className="text-center mb-16 animate-fade-in">
           <div className="inline-flex items-center gap-2 mb-4">
             <div className="w-8 h-1 bg-caveira-gold"></div>
-            <Quote className="w-8 h-8 text-caveira-gold animate-pulse" />
+            <Quote className="w-8 h-8 text-caveira-gold animate-pulse-soft" />
             <div className="w-8 h-1 bg-caveira-gold"></div>
           </div>
           <h2 className="text-4xl md:text-6xl font-black mt-2 mb-4">

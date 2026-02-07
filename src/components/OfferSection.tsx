@@ -6,8 +6,8 @@ export const OfferSection = () => {
     <section className="relative py-24 overflow-hidden" style={{ background: 'linear-gradient(180deg, hsl(353 85% 44% / 0.2) 0%, hsl(0 0% 4%) 30%, hsl(0 0% 4%) 100%)' }}>
       {/* Dramatic Background Effects - Luxury */}
       <div className="absolute inset-0">
-        <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full blur-[150px] animate-pulse" style={{ background: 'var(--gradient-gold-radial)' }}></div>
-        <div className="absolute bottom-0 right-1/4 w-96 h-96 rounded-full blur-[150px] animate-pulse" style={{ background: 'radial-gradient(circle, hsl(353 85% 44% / 0.3) 0%, transparent 70%)', animationDelay: "1s" }}></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full blur-[150px] animate-pulse-soft" style={{ background: 'var(--gradient-gold-radial)' }}></div>
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 rounded-full blur-[150px] animate-pulse-soft" style={{ background: 'radial-gradient(circle, hsl(353 85% 44% / 0.3) 0%, transparent 70%)', animationDelay: "1s" }}></div>
       </div>
 
       {/* Sparks Effect */}
@@ -20,7 +20,7 @@ export const OfferSection = () => {
       <div className="relative container mx-auto px-4">
         {/* Alert Banner */}
         <div className="text-center mb-12 animate-fade-in">
-          <div className="inline-flex items-center gap-3 bg-caveira-red/30 border-2 border-caveira-red px-8 py-4 rounded-lg animate-pulse">
+          <div className="inline-flex items-center gap-3 bg-caveira-red/30 border-2 border-caveira-red px-8 py-4 rounded-lg animate-pulse-soft">
             <AlertTriangle className="w-8 h-8 text-caveira-red" />
             <span className="text-caveira-white font-bold text-xl tracking-wider">
               ÚLTIMA CHAMADA DA TROPA
@@ -129,13 +129,13 @@ export const OfferSection = () => {
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
                 </div>
-                <Flame className="w-8 h-8 animate-pulse relative z-10 text-caveira-black" />
+                <Flame className="w-8 h-8 animate-pulse-soft relative z-10 text-caveira-black" />
                 <span className="relative z-10 text-caveira-black uppercase tracking-wider" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>Garantir Minha Vaga Agora</span>
-                <Flame className="w-8 h-8 animate-pulse relative z-10 text-caveira-black" />
+                <Flame className="w-8 h-8 animate-pulse-soft relative z-10 text-caveira-black" />
               </button>
 
               {/* Urgency Text */}
-              <p className="text-caveira-red font-bold text-lg mt-6 animate-pulse">
+              <p className="text-caveira-red font-bold text-lg mt-6 animate-pulse-soft">
                 Oferta válida por tempo limitado
               </p>
             </div>

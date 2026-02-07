@@ -107,6 +107,10 @@ export default {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.05)" },
         },
+        "pulse-soft": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.6" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -120,6 +124,7 @@ export default {
         "metallic-shine": "metallic-shine 8s linear infinite",
         "glow-rotate": "glow-rotate 10s linear infinite",
         "button-pulse": "button-pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "pulse-soft": "pulse-soft 3s ease-in-out infinite",
       },
     },
   },
