@@ -2,7 +2,7 @@ import { Flame, Shield } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-caveira-black">
+    <section className="relative min-h-screen flex items-center justify-center overflow-x-hidden bg-caveira-black">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img 
@@ -44,8 +44,8 @@ export const HeroSection = () => {
           <div className="w-full md:w-[45%] flex flex-col items-center md:items-start text-center md:text-left">
             <div className="max-w-3xl animate-fade-in">
               {/* Main Headline */}
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight" style={{ animationDelay: '0.2s' }}>
-                <span className="whitespace-nowrap">CONQUISTE SUA VAGA NA</span> <span className="text-caveira-gold relative inline-block" style={{
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight" style={{ animationDelay: '0.2s' }}>
+                <span className="md:whitespace-nowrap">CONQUISTE SUA VAGA NA</span> <span className="text-caveira-gold relative inline-block" style={{
                   textShadow: 'var(--shadow-gold)',
                   background: 'var(--gradient-gold)',
                   WebkitBackgroundClip: 'text',
@@ -73,28 +73,28 @@ export const HeroSection = () => {
               </h1>
 
               {/* Subheadline */}
-              <p className="text-xl md:text-2xl text-caveira-gray max-w-full mb-4" style={{ animationDelay: '0.4s' }}>
+              <p className="text-base sm:text-lg md:text-2xl text-caveira-gray max-w-full mb-4" style={{ animationDelay: '0.4s' }}>
                 Tudo o que você precisa para se tornar um Guarda Municipal aprovado
               </p>
 
               {/* Instructor Info */}
-              <p className="text-lg text-caveira-white mb-8 max-w-full" style={{ animationDelay: '0.5s' }}>
+              <p className="text-sm sm:text-base md:text-lg text-caveira-white mb-8 max-w-full" style={{ animationDelay: '0.5s' }}>
                 Ministrado por <span className="text-caveira-gold font-bold">Alessandro Melo</span>, especialista em concursos públicos e Direito Administrativo.
               </p>
             </div>
           </div>
 
           {/* Right Column - Imagem do Professor */}
-          <div className="w-full md:w-[35%] flex items-center justify-end mt-8 md:mt-0 animate-fade-in-right">
-            <div className="relative w-full rounded-lg overflow-hidden" style={{ boxShadow: '0 0 30px hsl(43 88% 38% / 0.25), 0 0 60px hsl(43 88% 38% / 0.1)' }}>
+          <div className="w-full md:w-[35%] flex items-center justify-center md:justify-end mt-8 md:mt-0 animate-fade-in-right px-4 md:px-0">
+            <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg overflow-hidden" style={{ boxShadow: '0 0 30px hsl(43 88% 38% / 0.25), 0 0 60px hsl(43 88% 38% / 0.1)' }}>
               <img
                 src="/5.jpg"
                 alt="Professor Alessandro Melo"
                 className="w-full h-auto object-cover rounded-lg transform transition-transform duration-500 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-caveira-black/70 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-4 text-center">
-                <p className="text-caveira-white text-xl font-bold">Professor Alessandro Melo</p>
+              <div className="absolute bottom-0 left-0 right-0 p-2 sm:p-4 text-center">
+                <p className="text-caveira-white text-base sm:text-lg md:text-xl font-bold">Professor Alessandro Melo</p>
               </div>
             </div>
           </div>
@@ -103,22 +103,22 @@ export const HeroSection = () => {
         {/* CTA e Banner Centralizados na parte inferior */}
         <div className="w-full flex flex-col items-center pb-24 animate-fade-in">
           {/* CTA Button */}
-          <button className="group relative px-12 py-6 rounded-lg font-black text-xl uppercase tracking-wider transition-all duration-300 flex items-center gap-3 overflow-hidden" style={{ animationDelay: '0.6s', boxShadow: 'var(--shadow-gold-intense)' }}>
+          <button className="group relative px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 rounded-lg font-black text-base sm:text-lg md:text-xl uppercase tracking-wider transition-all duration-300 flex items-center gap-2 sm:gap-3 overflow-hidden" style={{ animationDelay: '0.6s', boxShadow: 'var(--shadow-gold-intense)' }}>
             <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
             <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
             </div>
-            <Flame className="w-6 h-6 relative z-10 text-caveira-black" />
+            <Flame className="w-5 h-5 sm:w-6 sm:h-6 relative z-10 text-caveira-black hidden sm:block" />
             <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>Entrar na Operação</span>
-            <Flame className="w-6 h-6 relative z-10 text-caveira-black" />
+            <Flame className="w-5 h-5 sm:w-6 sm:h-6 relative z-10 text-caveira-black hidden sm:block" />
           </button>
 
           {/* Warning Banner */}
-          <div className="relative mt-6 inline-flex items-center gap-3 px-8 py-4 rounded-lg animate-pulse-soft overflow-hidden">
+          <div className="relative mt-4 sm:mt-6 inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-lg animate-pulse-soft overflow-hidden">
             <div className="absolute inset-0 bg-caveira-red/20 backdrop-blur-sm"></div>
             <div className="absolute inset-0 border border-caveira-red/60" style={{ boxShadow: 'var(--shadow-red)' }}></div>
-            <span className="text-caveira-red font-bold text-lg tracking-wider relative z-10" style={{ textShadow: '0 0 10px hsl(353 85% 44% / 0.5)' }}>
+            <span className="text-caveira-red font-bold text-xs sm:text-sm md:text-lg tracking-wider relative z-10" style={{ textShadow: '0 0 10px hsl(353 85% 44% / 0.5)' }}>
               VAGAS LIMITADAS | INÍCIO IMEDIATO
             </span>
           </div>
