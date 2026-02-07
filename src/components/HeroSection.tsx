@@ -126,7 +126,7 @@ export const HeroSection = () => {
       </div>
 
       {/* Diagonal Accent - Metallic */}
-      <div className="absolute bottom-0 left-0 w-full h-32 transform -skew-y-2 overflow-hidden">
+      <div className="absolute -bottom-16 left-0 w-full h-32 transform -skew-y-2 overflow-hidden">
         <div className="w-full h-full" style={{ background: 'var(--gradient-gold)', opacity: 0.2 }}></div>
       </div>
     </section>
