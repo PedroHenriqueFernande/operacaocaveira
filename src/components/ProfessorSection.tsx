@@ -51,7 +51,7 @@ export const ProfessorSection = () => {
           </h2>
           <div className="flex justify-center my-8">
             <img 
-              src="/ex1.png" 
+              src="/1.jpg" 
               alt="Professor Alessandro Melo - Tactical" 
               className="w-full max-w-lg h-auto rounded-lg shadow-lg border-2 border-caveira-gold/50"
             />
