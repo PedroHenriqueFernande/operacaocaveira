@@ -86,7 +86,7 @@ export const HeroSection = () => {
 
           {/* Right Column - Imagem do Professor */}
           <div className="w-full md:w-[35%] flex items-center justify-end mt-8 md:mt-0 animate-fade-in-right">
-            <div className="relative w-full rounded-lg overflow-hidden" style={{ boxShadow: 'var(--shadow-deep)' }}>
+            <div className="relative w-full rounded-lg overflow-hidden" style={{ boxShadow: '0 0 30px hsl(43 88% 38% / 0.25), 0 0 60px hsl(43 88% 38% / 0.1)' }}>
               <img
                 src="/5.jpg"
                 alt="Professor Alessandro Melo"
