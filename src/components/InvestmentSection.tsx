@@ -30,15 +30,15 @@ export const InvestmentSection = () => {
 
           {/* CTA Button */}
           <a href="#oferta">
-            <Button className="group relative px-8 py-4 md:px-12 md:py-6 rounded-lg font-black text-lg md:text-xl uppercase tracking-wider transition-all duration-300 flex items-center justify-center gap-3 mx-auto overflow-hidden text-center whitespace-normal animate-button-pulse" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
+            <Button className="group relative px-8 py-4 md:px-12 md:py-6 rounded-lg font-black text-lg md:text-xl uppercase tracking-wider transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 mx-auto overflow-hidden text-center whitespace-normal" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
               <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
               <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
               </div>
-              <Flame className="w-5 h-5 md:w-6 md:h-6 animate-pulse-soft relative z-10 text-caveira-black" />
+              <Flame className="w-5 h-5 md:w-6 md:h-6 relative z-10 text-caveira-black" />
               <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>GARANTIR MINHA VAGA AGORA</span>
-              <Flame className="w-5 h-5 md:w-6 md:h-6 animate-pulse-soft relative z-10 text-caveira-black" />
+              <Flame className="w-5 h-5 md:w-6 md:h-6 relative z-10 text-caveira-black" />
             </Button>
           </a>
         </div>

@@ -30,39 +30,26 @@ export const OfferSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          {/* Main Offer Box - Premium Luxury */}
-          <div className="relative backdrop-blur-sm rounded-2xl p-12 animate-fade-in overflow-hidden" style={{ 
-            background: 'linear-gradient(135deg, hsl(0 0% 17% / 0.8) 0%, hsl(0 0% 10% / 0.9) 100%)',
-            boxShadow: 'var(--shadow-gold-intense)'
+          {/* Main Offer Box - Premium Dark */}
+          <div className="relative backdrop-blur-sm rounded-2xl p-12 animate-fade-in overflow-hidden border-2 border-caveira-gold/40" style={{
+            background: 'linear-gradient(180deg, hsl(0 0% 8%) 0%, hsl(0 0% 5%) 100%)',
+            boxShadow: '0 0 40px hsl(43 88% 38% / 0.15), inset 0 1px 0 hsl(43 88% 38% / 0.1)'
           }}>
-            {/* Metallic Border Effect */}
-            <div className="absolute inset-0 rounded-2xl" style={{ 
-              background: 'var(--gradient-gold)',
-              padding: '4px'
-            }}>
-              <div className="w-full h-full bg-transparent rounded-2xl"></div>
+            {/* Subtle Gold Glow at Top */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-32 rounded-full blur-3xl" style={{ background: 'radial-gradient(ellipse, hsl(43 88% 38% / 0.15) 0%, transparent 70%)' }}></div>
+
+            {/* Corner Decorations - Subtle */}
+            <div className="absolute top-0 left-0 w-20 h-20">
+              <div className="w-full h-full border-t-2 border-l-2 border-caveira-gold/60 rounded-tl-2xl"></div>
             </div>
-            
-            {/* Luxury Background Overlay */}
-            <div className="absolute inset-0 rounded-2xl" style={{ background: 'var(--gradient-luxury)', opacity: 0.5 }}></div>
-            
-            {/* Animated Shine */}
-            <div className="absolute inset-0 opacity-30 rounded-2xl overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-transparent via-caveira-gold/10 to-transparent animate-metallic-shine" style={{ backgroundSize: '200% 200%' }}></div>
+            <div className="absolute top-0 right-0 w-20 h-20">
+              <div className="w-full h-full border-t-2 border-r-2 border-caveira-gold/60 rounded-tr-2xl"></div>
             </div>
-            
-            {/* Corner Decorations - Luxury */}
-            <div className="absolute -top-2 -left-2 w-16 h-16">
-              <div className="w-full h-full border-t-4 border-l-4 border-caveira-gold" style={{ filter: 'drop-shadow(0 0 10px hsl(43 88% 38% / 0.5))' }}></div>
+            <div className="absolute bottom-0 left-0 w-20 h-20">
+              <div className="w-full h-full border-b-2 border-l-2 border-caveira-gold/60 rounded-bl-2xl"></div>
             </div>
-            <div className="absolute -top-2 -right-2 w-16 h-16">
-              <div className="w-full h-full border-t-4 border-r-4 border-caveira-gold" style={{ filter: 'drop-shadow(0 0 10px hsl(43 88% 38% / 0.5))' }}></div>
-            </div>
-            <div className="absolute -bottom-2 -left-2 w-16 h-16">
-              <div className="w-full h-full border-b-4 border-l-4 border-caveira-gold" style={{ filter: 'drop-shadow(0 0 10px hsl(43 88% 38% / 0.5))' }}></div>
-            </div>
-            <div className="absolute -bottom-2 -right-2 w-16 h-16">
-              <div className="w-full h-full border-b-4 border-r-4 border-caveira-gold" style={{ filter: 'drop-shadow(0 0 10px hsl(43 88% 38% / 0.5))' }}></div>
+            <div className="absolute bottom-0 right-0 w-20 h-20">
+              <div className="w-full h-full border-b-2 border-r-2 border-caveira-gold/60 rounded-br-2xl"></div>
             </div>
 
             {/* Content */}
@@ -84,12 +71,12 @@ export const OfferSection = () => {
                 <div className="text-caveira-gray text-xl line-through mb-2">
                   De R$ 197,00
                 </div>
-                <div className="text-5xl md:text-7xl font-black mb-2 animate-glow-pulse" style={{ 
+                <div className="text-5xl md:text-7xl font-black mb-2" style={{
                   background: 'var(--gradient-gold)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text',
-                  textShadow: 'var(--shadow-gold)'
+                  filter: 'drop-shadow(0 0 20px hsl(43 88% 38% / 0.5))'
                 }}>
                   R$ 147,00
                 </div>
@@ -129,9 +116,9 @@ export const OfferSection = () => {
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
                 </div>
-                <Flame className="w-8 h-8 animate-pulse-soft relative z-10 text-caveira-black" />
+                <Flame className="w-8 h-8 relative z-10 text-caveira-black" />
                 <span className="relative z-10 text-caveira-black uppercase tracking-wider" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>Garantir Minha Vaga Agora</span>
-                <Flame className="w-8 h-8 animate-pulse-soft relative z-10 text-caveira-black" />
+                <Flame className="w-8 h-8 relative z-10 text-caveira-black" />
               </button>
 
               {/* Urgency Text */}

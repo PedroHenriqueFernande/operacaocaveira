@@ -21,7 +21,7 @@ export const GuaranteeSection = () => {
             </div>
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-black mb-6 text-left">
+          <h2 className="text-4xl md:text-6xl font-black mb-6 text-center">
             GARANTIA <span className="text-caveira-gold">INCONDICIONAL</span>
           </h2>
 
@@ -46,7 +46,7 @@ export const GuaranteeSection = () => {
 
           <div className="mt-8">
             <a href="#oferta">
-              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-colors duration-300 transform hover:scale-105 shadow-lg animate-button-pulse">
+              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 GARANTIR MEU ACESSO
               </Button>
             </a>

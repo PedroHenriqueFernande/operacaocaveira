@@ -88,9 +88,9 @@ export const ProfessorSection = () => {
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
               </div>
-              <Flame className="w-6 h-6 animate-pulse-soft relative z-10 text-caveira-black" />
+              <Flame className="w-6 h-6 relative z-10 text-caveira-black" />
               <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>QUERO SER APROVADO</span>
-              <Flame className="w-6 h-6 animate-pulse-soft relative z-10 text-caveira-black" />
+              <Flame className="w-6 h-6 relative z-10 text-caveira-black" />
             </button>
           </a>
         </div>
