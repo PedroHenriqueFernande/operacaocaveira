@@ -69,7 +69,7 @@ export const HeroSection = () => {
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text'
-                }}>ESTRATÉGIA</span>.
+                }}>ESTRATÉGIA</span>
               </h1>
 
               {/* Subheadline */}
