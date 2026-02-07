@@ -22,7 +22,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0" style={{ background: 'radial-gradient(circle at 30% 50%, hsl(43 88% 38% / 0.1) 0%, transparent 50%)', filter: 'blur(60px)' }}></div>
       </div>
 
-      <div className="relative z-10 w-full px-4 md:px-24 lg:px-32 min-h-screen flex flex-col">
+      <div className="relative z-10 w-full px-4 md:px-16 lg:px-20 min-h-screen flex flex-col">
         {/* Badge Centralizado no Topo */}
         <div className="w-full flex justify-center pt-8 animate-fade-in">
           <div className="relative inline-flex items-center gap-2 px-6 py-3 rounded-full overflow-hidden group">
@@ -39,9 +39,9 @@ export const HeroSection = () => {
         </div>
 
         {/* Conteúdo Principal - Duas Colunas */}
-        <div className="flex-1 flex flex-col md:flex-row items-center justify-between py-8 md:gap-20">
+        <div className="flex-1 flex flex-col md:flex-row items-center justify-center py-8 md:gap-16">
           {/* Left Column */}
-          <div className="w-full md:w-[44%] flex flex-col items-center md:items-start text-center md:text-left">
+          <div className="w-full md:w-[45%] flex flex-col items-center md:items-start text-center md:text-left">
             <div className="max-w-3xl animate-fade-in">
               {/* Main Headline */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight" style={{ animationDelay: '0.2s' }}>
