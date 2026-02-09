@@ -32,7 +32,7 @@ export const ProfessorSection = () => {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-caveira-red rounded-full blur-[150px]"></div>
       </div>
       {/* Metallic Grid Pattern */}
-      <div className="absolute inset-0 opacity-[0.02]" style={{ 
+      <div className="absolute inset-0 opacity-[0.02]" style={{
         backgroundImage: 'linear-gradient(hsl(0 0% 100% / 0.05) 1px, transparent 1px), linear-gradient(90deg, hsl(0 0% 100% / 0.05) 1px, transparent 1px)',
         backgroundSize: '50px 50px'
       }}></div>
@@ -41,7 +41,7 @@ export const ProfessorSection = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="text-caveira-gold font-bold text-sm tracking-widest uppercase" style={{ textShadow: 'var(--shadow-gold)' }}>Olá! Eu sou o Alessandro Melo</span>
           <h2 className="text-4xl md:text-6xl font-black mt-2 mb-4">
-            Professor de Direito Administrativo, especialista em concursos públicos e apaixonado por <span className="relative inline-block" style={{ 
+            Professor de Direito Administrativo, especialista em concursos públicos e apaixonado por <span className="relative inline-block" style={{
               background: 'var(--gradient-gold)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
@@ -50,15 +50,15 @@ export const ProfessorSection = () => {
             }}>ensinar</span>.
           </h2>
           <div className="flex justify-center my-8">
-            <img 
-              src="/1.jpg" 
-              alt="Professor Alessandro Melo - Tactical" 
+            <img
+              src="/1.jpg"
+              alt="Professor Alessandro Melo - Tactical"
               className="w-full max-w-lg h-auto rounded-lg shadow-lg border-2 border-caveira-gold/50"
             />
           </div>
           <div className="relative w-24 h-1 mx-auto overflow-hidden">
             <div className="absolute inset-0" style={{ background: 'var(--gradient-gold)' }}></div>
-            <div className="absolute inset-0 animate-metallic-shine" style={{ 
+            <div className="absolute inset-0 animate-metallic-shine" style={{
               background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%)',
               backgroundSize: '200% 100%'
             }}></div>
@@ -79,7 +79,7 @@ export const ProfessorSection = () => {
           <p className="text-xl text-caveira-gold font-bold leading-relaxed mb-12">
             Se você quer estudar de forma direcionada, sem perder tempo com o que não cai na prova, e finalmente conquistar sua aprovação, clique agora no botão abaixo e descubra como meu método pode te levar direto à sua vaga!
           </p>
-          
+
           {/* CTA Button - Luxury Metallic */}
           <a href="#oferta">
             <button className="group relative px-12 py-6 rounded-lg font-black text-xl uppercase tracking-wider transition-all duration-300 animate-fade-in flex items-center gap-3 mx-auto overflow-hidden" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
@@ -89,7 +89,7 @@ export const ProfessorSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"></div>
               </div>
               <Flame className="w-6 h-6 relative z-10 text-caveira-black" />
-              <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>QUERO SER APROVADO</span>
+              <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>QUERO COMPRAR AGORA</span>
               <Flame className="w-6 h-6 relative z-10 text-caveira-black" />
             </button>
           </a>

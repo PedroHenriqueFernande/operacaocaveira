@@ -50,7 +50,7 @@ export const BonusSection = () => {
 
       <div className="relative container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <span className="text-caveira-gold font-bold text-sm tracking-widest uppercase" style={{ textShadow: 'var(--shadow-gold)' }}>Valor Inestimável</span>
+
           <h2 className="text-4xl md:text-6xl font-black mt-2 mb-4">
             BÔNUS <span style={{
               background: 'var(--gradient-gold)',

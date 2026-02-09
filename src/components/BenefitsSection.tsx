@@ -49,7 +49,7 @@ export const BenefitsSection = () => {
       <div className="relative container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-6xl font-black mt-2 mb-4">
-            O QUE VOCÊ VAI <span style={{ 
+            O QUE VOCÊ VAI <span style={{
               background: 'var(--gradient-gold)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
@@ -57,11 +57,11 @@ export const BenefitsSection = () => {
             }}>ENCONTRAR NO CURSO:</span>
           </h2>
           <p className="text-caveira-gray text-lg max-w-2xl mx-auto">
-            Tudo o que você precisa para se tornar um Caveira aprovado
+            Tudo o que você precisa para se tornar um Guarda Municipal aprovado
           </p>
           <div className="relative w-24 h-1 mx-auto mt-4 overflow-hidden">
             <div className="absolute inset-0" style={{ background: 'var(--gradient-gold)' }}></div>
-            <div className="absolute inset-0 animate-metallic-shine" style={{ 
+            <div className="absolute inset-0 animate-metallic-shine" style={{
               background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%)',
               backgroundSize: '200% 100%'
             }}></div>
@@ -73,31 +73,31 @@ export const BenefitsSection = () => {
             {benefits.map((benefit, index) => {
               const Icon = benefit.icon;
               return (
-                <div 
+                <div
                   key={index}
                   className="group relative backdrop-blur-sm p-8 rounded-lg transition-all duration-300 cursor-pointer animate-fade-in hover:-translate-y-2"
-                  style={{ 
+                  style={{
                     animationDelay: `${index * 100}ms`,
                     background: 'linear-gradient(135deg, hsl(0 0% 17% / 0.4) 0%, hsl(0 0% 12% / 0.6) 100%)',
                     boxShadow: 'var(--shadow-deep)'
                   }}
                 >
                   {/* Metallic Border Effect */}
-                  <div className="absolute inset-0 rounded-lg opacity-40 group-hover:opacity-100 transition-opacity duration-300" style={{ 
+                  <div className="absolute inset-0 rounded-lg opacity-40 group-hover:opacity-100 transition-opacity duration-300" style={{
                     background: 'linear-gradient(135deg, hsl(43 88% 38% / 0.4) 0%, transparent 50%, hsl(43 88% 38% / 0.4) 100%)',
                     padding: '2px'
                   }}>
                     <div className="w-full h-full bg-transparent rounded-lg"></div>
                   </div>
-                  
+
                   {/* 3D Effect Background */}
                   <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ background: 'var(--gradient-luxury)' }}></div>
-                  
+
                   {/* Shine Effect */}
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 overflow-hidden rounded-lg">
                     <div className="absolute inset-0 bg-gradient-to-br from-transparent via-caveira-gold/10 to-transparent animate-shine"></div>
                   </div>
-                  
+
                   {/* Icon Container */}
                   <div className="relative mb-6">
                     <div className="inline-flex p-4 rounded-xl transition-all duration-300 group-hover:scale-110 overflow-hidden" style={{ background: 'linear-gradient(135deg, hsl(43 88% 38% / 0.15) 0%, hsl(43 88% 38% / 0.05) 100%)' }}>
@@ -129,11 +129,11 @@ export const BenefitsSection = () => {
         </div>
 
         <div className="mt-12 text-center">
-            <a href="#oferta">
-              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-colors duration-300 transform hover:scale-105 shadow-lg">
-                ACESSAR O CURSO AGORA
-              </Button>
-            </a>
+          <a href="#oferta">
+            <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 transition-colors duration-300 transform hover:scale-105 shadow-lg animate-pulse">
+              ACESSAR O CURSO AGORA
+            </Button>
+          </a>
         </div>
       </div>
     </section>

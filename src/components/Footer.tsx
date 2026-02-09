@@ -23,13 +23,13 @@ export const Footer = () => {
               Professor <span className="text-caveira-gold font-bold">Alessandro Melo</span>
             </p>
             <p className="text-caveira-gray text-sm">
-              Especialista em Concursos Públicos e Direito Administrativo
+              Especialista em Concursos Públicos
             </p>
           </div>
 
           {/* Legal */}
           <div className="mt-8 text-caveira-gray text-sm space-y-2">
-            <p>© 2026 OPERAÇÃO GUARDA MUNICIPAL DE DIREITO ADMINISTRATIVO. Todos os direitos reservados.</p>
+            <p>© 2026. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>

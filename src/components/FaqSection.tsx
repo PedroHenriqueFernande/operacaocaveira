@@ -22,11 +22,6 @@ const faqItems = [
     answer: "6 meses completos OU até a data da sua prova (o que acontecer primeiro).",
   },
   {
-    question: "As aulas são ao vivo ou gravadas?",
-    answer:
-      "As aulas dos módulos são gravadas (para você assistir quando puder). As lives dos bônus são semanais e ao vivo, mas ficam gravadas.",
-  },
-  {
     question: "E se eu tiver dúvidas?",
     answer: "Você terá acesso ao grupo exclusivo do WhatsApp e suporte direto com o professor.",
   },

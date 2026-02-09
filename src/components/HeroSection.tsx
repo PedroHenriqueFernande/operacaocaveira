@@ -5,9 +5,9 @@ export const HeroSection = () => {
     <section className="relative min-h-screen bg-caveira-black">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img 
-          src="/hero-background.jpg" 
-          alt="Tactical background" 
+        <img
+          src="/hero-background.jpg"
+          alt="Tactical background"
           className="w-full h-full object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-caveira-black via-caveira-black/50 to-caveira-black"></div>
@@ -32,7 +32,7 @@ export const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-caveira-gold/20 to-transparent animate-shine"></div>
             </div>
             <Shield className="w-15 h-5 text-caveira-gold relative z-10" />
-            <span className="text-caveira-gold font-bold tracking-wider uppercase text-sm relative z-10" style={{ textShadow: '0 0 10px hsl(43 88% 38% / 0.5)' }}>
+            <span className="text-caveira-gold font-bold tracking-wider uppercase text-sm relative z-10 animate-pulse" style={{ textShadow: '0 0 10px hsl(43 88% 38% / 0.5)' }}>
               Operação Guarda Municipal
             </span>
           </div>
@@ -113,15 +113,6 @@ export const HeroSection = () => {
             <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>Entrar na Operação</span>
             <Flame className="w-5 h-5 sm:w-6 sm:h-6 relative z-10 text-caveira-black hidden sm:block" />
           </button>
-
-          {/* Warning Banner */}
-          <div className="relative mt-4 sm:mt-6 inline-flex items-center gap-2 sm:gap-3 px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-lg animate-pulse-soft overflow-hidden">
-            <div className="absolute inset-0 bg-caveira-red/20 backdrop-blur-sm"></div>
-            <div className="absolute inset-0 border border-caveira-red/60" style={{ boxShadow: 'var(--shadow-red)' }}></div>
-            <span className="text-caveira-red font-bold text-xs sm:text-sm md:text-lg tracking-wider relative z-10" style={{ textShadow: '0 0 10px hsl(353 85% 44% / 0.5)' }}>
-              VAGAS LIMITADAS | INÍCIO IMEDIATO
-            </span>
-          </div>
         </div>
       </div>
 
