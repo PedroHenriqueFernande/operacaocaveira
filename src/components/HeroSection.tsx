@@ -25,14 +25,14 @@ export const HeroSection = () => {
       <div className="relative z-10 w-full px-4 md:px-16 lg:px-20 flex flex-col">
         {/* Badge Centralizado no Topo */}
         <div className="w-full flex justify-center pt-12 md:pt-20 animate-fade-in">
-          <div className="relative inline-flex items-center gap-2 px-6 py-3 rounded-full overflow-hidden group">
+          <div className="relative inline-flex items-center gap-2 px-6 py-3 rounded-full overflow-hidden group animate-hero-badge-pulse">
             <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold/20 via-caveira-gold/30 to-caveira-gold/20 backdrop-blur-sm"></div>
             <div className="absolute inset-0 border border-caveira-gold/50" style={{ boxShadow: 'var(--shadow-metallic)' }}></div>
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-caveira-gold/20 to-transparent animate-shine"></div>
             </div>
             <Shield className="w-15 h-5 text-caveira-gold relative z-10" />
-            <span className="text-caveira-gold font-bold tracking-wider uppercase text-sm relative z-10 animate-pulse" style={{ textShadow: '0 0 10px hsl(43 88% 38% / 0.5)' }}>
+            <span className="text-caveira-gold font-bold tracking-wider uppercase text-sm relative z-10" style={{ textShadow: '0 0 10px hsl(43 88% 38% / 0.5)' }}>
               Operação Guarda Municipal
             </span>
           </div>
@@ -88,7 +88,7 @@ export const HeroSection = () => {
           <div className="w-full md:w-[35%] flex items-center justify-center md:justify-end mt-12 md:mt-0 animate-fade-in-right px-4 md:px-0">
             <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg overflow-hidden" style={{ boxShadow: '0 0 30px hsl(43 88% 38% / 0.25), 0 0 60px hsl(43 88% 38% / 0.1)' }}>
               <img
-                src="/5.jpg"
+                src="/FOTO - 1ª DOBRA.png"
                 alt="Professor Alessandro Melo"
                 className="w-full h-auto object-cover rounded-lg transform transition-transform duration-500 hover:scale-105"
               />

@@ -22,7 +22,7 @@ export const InvestmentSection = () => {
 
         <div className="bg-caveira-steel/30 border-2 border-caveira-gold/30 rounded-2xl p-10 backdrop-blur-sm max-w-3xl mx-auto">
           <p className="text-xl md:text-2xl text-caveira-white leading-relaxed mb-4">
-            <span className="line-through">De R$197,00</span> Por apenas <span className="text-caveira-gold font-bold">12x R$ 15,20 </span> no cartão parcelado ou por apenas <span className="text-caveira-gold font-bold">R$ 147,00 à vista</span> 
+            <span className="line-through">De R$197,00</span> Por apenas <span className="text-caveira-gold font-bold">12x R$ 15,20 </span> no cartão parcelado ou por apenas <span className="text-caveira-gold font-bold">R$ 147,00 à vista</span>
           </p>
           <p className="text-lg text-caveira-gray leading-relaxed mb-8">
             Você garante acesso completo ao curso que pode te colocar na Guarda Municipal de Manaus em 2026.
@@ -30,7 +30,7 @@ export const InvestmentSection = () => {
 
           {/* CTA Button */}
           <a href="#oferta">
-            <Button className="group relative px-6 py-5 sm:px-10 sm:py-6 md:px-12 md:py-6 rounded-lg font-black text-base sm:text-lg md:text-xl uppercase tracking-wider flex items-center justify-center gap-2 md:gap-3 mx-auto overflow-hidden whitespace-nowrap animate-cta-pulse">
+            <Button className="group relative px-6 py-5 sm:px-10 sm:py-6 md:px-12 md:py-6 rounded-lg font-black text-base sm:text-lg md:text-xl uppercase tracking-wider flex items-center justify-center gap-2 md:gap-3 mx-auto overflow-hidden whitespace-nowrap animate-hero-badge-pulse">
               <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
               <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">

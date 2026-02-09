@@ -115,6 +115,10 @@ export default {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.03)" },
         },
+        "hero-badge-pulse": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -130,6 +134,7 @@ export default {
         "button-pulse": "button-pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "pulse-soft": "pulse-soft 3s ease-in-out infinite",
         "cta-pulse": "cta-pulse 3.5s ease-in-out infinite",
+        "hero-badge-pulse": "hero-badge-pulse 4s ease-in-out infinite",
       },
     },
   },

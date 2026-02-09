@@ -29,7 +29,7 @@ export const GuaranteeSection = () => {
             <p className="text-xl md:text-2xl text-caveira-white leading-relaxed mb-6 text-left">
               Risco Zero - Teste por 7 Dias, ofereço a você 7 dias de garantia incondicional.
             </p>
-            
+
             <p className="text-lg text-caveira-gray leading-relaxed mb-6 text-left">
               Se por qualquer motivo você não gostar do curso, não se adaptar à metodologia, ou simplesmente mudar de ideia, basta enviar um e-mail que devolvo 100% do seu investimento.
             </p>
@@ -46,7 +46,7 @@ export const GuaranteeSection = () => {
 
           <div className="mt-8">
             <a href="#oferta">
-              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 animate-cta-pulse">
+              <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 animate-hero-badge-pulse">
                 GARANTIR MEU ACESSO
               </Button>
             </a>
