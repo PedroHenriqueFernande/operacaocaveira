@@ -19,14 +19,25 @@ export const InvestmentSection = () => {
             backgroundClip: 'text'
           }}>QUE VALE A PENA</span>
         </h2>
+        <div className="text-caveira-gold text-2xl sm:text-3xl font-black tracking-widest uppercase mb-8 animate-pulse">
+          OFERTA EXCLUSIVA
+        </div>
 
         <div className="bg-caveira-steel/30 border-2 border-caveira-gold/30 rounded-2xl p-10 backdrop-blur-sm max-w-3xl mx-auto">
-          <p className="text-xl md:text-2xl text-caveira-white leading-relaxed mb-4">
-            <span className="line-through">De R$197,00</span> Por apenas <span className="text-caveira-gold font-bold">12x R$ 15,20 </span> no cartão parcelado ou por apenas <span className="text-caveira-gold font-bold">R$ 147,00 à vista</span>
-          </p>
-          <p className="text-lg text-caveira-gray leading-relaxed mb-8">
-            Você garante acesso completo ao curso que pode te colocar na Guarda Municipal de Manaus em 2026.
-          </p>
+          <div className="flex flex-col items-center gap-2 mb-8 animate-fade-in">
+            <span className="text-caveira-gray text-2xl sm:text-3xl line-through mt-2">De R$ 197,00</span>
+            <span className="text-caveira-white text-lg sm:text-xl">Por apenas</span>
+
+            <div className="flex items-end gap-2 mt-2">
+              <span className="text-caveira-white text-2xl sm:text-3xl mb-1">Por 12 x</span>
+              <div className="flex items-baseline gap-1">
+                <span className="text-caveira-gold text-2xl sm:text-3xl font-bold">R$</span>
+                <span className="text-caveira-gold text-5xl sm:text-6xl font-black">15,20</span>
+              </div>
+            </div>
+
+            <span className="text-caveira-white text-2xl sm:text-3xl mt-2 font-bold">ou R$147,00 à vista</span>
+          </div>
 
           {/* CTA Button */}
           <a href="#oferta">

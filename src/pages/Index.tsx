@@ -24,7 +24,7 @@ const Index = () => {
       <AccessTimeSection />
       <ProfessorSection />
 
-      <OfferSection />
+
       <GuaranteeSection />
       <FaqSection />
       <Footer />
