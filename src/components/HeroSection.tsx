@@ -24,7 +24,7 @@ export const HeroSection = () => {
 
       <div className="relative z-10 w-full px-4 md:px-16 lg:px-20 flex flex-col">
         {/* Badge Centralizado no Topo */}
-        <div className="w-full flex justify-center pt-8 animate-fade-in">
+        <div className="w-full flex justify-center pt-12 md:pt-20 animate-fade-in">
           <div className="relative inline-flex items-center gap-2 px-6 py-3 rounded-full overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold/20 via-caveira-gold/30 to-caveira-gold/20 backdrop-blur-sm"></div>
             <div className="absolute inset-0 border border-caveira-gold/50" style={{ boxShadow: 'var(--shadow-metallic)' }}></div>
@@ -39,12 +39,12 @@ export const HeroSection = () => {
         </div>
 
         {/* Conteúdo Principal - Duas Colunas */}
-        <div className="flex-1 flex flex-col md:flex-row items-center justify-center py-8 md:gap-16">
+        <div className="flex-1 flex flex-col md:flex-row items-center justify-center py-12 md:py-20 md:gap-20">
           {/* Left Column */}
-          <div className="w-full md:w-[45%] flex flex-col items-center md:items-start text-center md:text-left">
+          <div className="w-full md:w-[45%] flex flex-col items-center md:items-start text-center md:text-left space-y-8">
             <div className="max-w-3xl animate-fade-in">
               {/* Main Headline */}
-              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight" style={{ animationDelay: '0.2s' }}>
+              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black mb-8 leading-tight" style={{ animationDelay: '0.2s' }}>
                 <span className="md:whitespace-nowrap">CONQUISTE SUA VAGA NA</span> <span className="text-caveira-gold relative inline-block" style={{
                   textShadow: 'var(--shadow-gold)',
                   background: 'var(--gradient-gold)',
@@ -73,19 +73,19 @@ export const HeroSection = () => {
               </h1>
 
               {/* Subheadline */}
-              <p className="text-base sm:text-lg md:text-2xl text-caveira-gray max-w-full mb-4" style={{ animationDelay: '0.4s' }}>
+              <p className="text-base sm:text-lg md:text-2xl text-caveira-gray max-w-full mb-10 leading-relaxed" style={{ animationDelay: '0.4s' }}>
                 Tudo o que você precisa para se tornar um Guarda Municipal aprovado
               </p>
 
               {/* Instructor Info */}
-              <p className="text-sm sm:text-base md:text-lg text-caveira-white mb-8 max-w-full" style={{ animationDelay: '0.5s' }}>
+              <p className="text-sm sm:text-base md:text-lg text-caveira-white mb-12 max-w-full" style={{ animationDelay: '0.5s' }}>
                 Ministrado por <span className="text-caveira-gold font-bold">Alessandro Melo</span>, especialista em concursos públicos e Direito Administrativo.
               </p>
             </div>
           </div>
 
           {/* Right Column - Imagem do Professor */}
-          <div className="w-full md:w-[35%] flex items-center justify-center md:justify-end mt-8 md:mt-0 animate-fade-in-right px-4 md:px-0">
+          <div className="w-full md:w-[35%] flex items-center justify-center md:justify-end mt-12 md:mt-0 animate-fade-in-right px-4 md:px-0">
             <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg overflow-hidden" style={{ boxShadow: '0 0 30px hsl(43 88% 38% / 0.25), 0 0 60px hsl(43 88% 38% / 0.1)' }}>
               <img
                 src="/5.jpg"
@@ -101,7 +101,7 @@ export const HeroSection = () => {
         </div>
 
         {/* CTA e Banner Centralizados na parte inferior */}
-        <div className="w-full flex flex-col items-center pb-24 animate-fade-in">
+        <div className="w-full flex flex-col items-center pb-32 animate-fade-in">
           {/* CTA Button */}
           <button className="group relative px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 rounded-lg font-black text-base sm:text-lg md:text-xl uppercase tracking-wider transition-all duration-300 flex items-center gap-2 sm:gap-3 overflow-hidden" style={{ animationDelay: '0.6s', boxShadow: 'var(--shadow-gold-intense)' }}>
             <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
