@@ -12,10 +12,7 @@ const missions = [
     title: "MÓDULO 2 – Fontes",
     description: ""
   },
-  {
-    icon: BookOpen,
-    description: ""
-  },
+
   {
     icon: BookOpen,
     title: "MÓDULO 3 – Sistema administrativo",
