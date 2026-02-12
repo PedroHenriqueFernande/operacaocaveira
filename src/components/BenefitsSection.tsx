@@ -129,7 +129,7 @@ export const BenefitsSection = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <a href="#oferta">
+          <a href="https://pay.hotmart.com/A103352371H">
             <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 shadow-lg animate-hero-badge-pulse">
               ACESSAR O CURSO AGORA
             </Button>
