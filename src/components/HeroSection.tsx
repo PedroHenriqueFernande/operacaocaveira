@@ -85,10 +85,10 @@ export const HeroSection = () => {
           </div>
 
           {/* Right Column - Imagem do Professor */}
-          <div className="w-full md:w-[35%] flex items-center justify-center md:justify-end mt-12 md:mt-0 animate-fade-in-right px-4 md:px-0">
+          <div className="w-full md:w-[35%] flex items-center justify-center md:justify-end mt-0 md:mt-0 animate-fade-in-right px-4 md:px-0">
             <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-full rounded-lg overflow-hidden" style={{ boxShadow: '0 0 30px hsl(43 88% 38% / 0.25), 0 0 60px hsl(43 88% 38% / 0.1)' }}>
               <img
-                src="/FOTO - 1ª DOBRA.png"
+                src="/5.jpg"
                 alt="Professor Alessandro Melo"
                 className="w-full h-auto object-cover rounded-lg transform transition-transform duration-500 hover:scale-105"
               />
@@ -103,7 +103,7 @@ export const HeroSection = () => {
         {/* CTA e Banner Centralizados na parte inferior */}
         <div className="w-full flex flex-col items-center pb-32 animate-fade-in">
           {/* CTA Button */}
-          <button className="group relative px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 rounded-lg font-black text-base sm:text-lg md:text-xl uppercase tracking-wider transition-all duration-300 flex items-center gap-2 sm:gap-3 overflow-hidden" style={{ animationDelay: '0.6s', boxShadow: 'var(--shadow-gold-intense)' }}>
+          <a href="https://pay.hotmart.com/A103352371H" className="group relative px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 rounded-lg font-black text-base sm:text-lg md:text-xl uppercase tracking-wider transition-all duration-300 flex items-center gap-2 sm:gap-3 overflow-hidden" style={{ animationDelay: '0.6s', boxShadow: 'var(--shadow-gold-intense)' }}>
             <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
             <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -112,7 +112,7 @@ export const HeroSection = () => {
             <Flame className="w-5 h-5 sm:w-6 sm:h-6 relative z-10 text-caveira-black hidden sm:block" />
             <span className="relative z-10 text-caveira-black" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>Entrar na Operação</span>
             <Flame className="w-5 h-5 sm:w-6 sm:h-6 relative z-10 text-caveira-black hidden sm:block" />
-          </button>
+          </a>
         </div>
       </div>
 

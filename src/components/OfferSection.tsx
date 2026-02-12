@@ -55,7 +55,7 @@ export const OfferSection = () => {
             {/* Content */}
             <div className="text-center mb-8 relative z-10">
               <h2 className="text-4xl md:text-6xl font-black mb-4">
-                ENTRE PARA A <span style={{ 
+                ENTRE PARA A <span style={{
                   background: 'var(--gradient-gold)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
@@ -110,7 +110,7 @@ export const OfferSection = () => {
               </div>
 
               {/* CTA Button - Premium Luxury */}
-              <button className="w-full group relative px-12 py-10 rounded-xl font-bold text-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 overflow-hidden" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
+              <a href="https://pay.hotmart.com/A103352371H" className="w-full group relative px-12 py-10 rounded-xl font-bold text-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 overflow-hidden" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
                 <div className="absolute inset-0 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
                 <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -119,7 +119,7 @@ export const OfferSection = () => {
                 <Flame className="w-8 h-8 relative z-10 text-caveira-black" />
                 <span className="relative z-10 text-caveira-black uppercase tracking-wider" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.3)' }}>Garantir Minha Vaga Agora</span>
                 <Flame className="w-8 h-8 relative z-10 text-caveira-black" />
-              </button>
+              </a>
 
               {/* Urgency Text */}
               <p className="text-caveira-red font-bold text-lg mt-6 animate-pulse-soft">

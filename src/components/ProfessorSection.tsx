@@ -81,7 +81,7 @@ export const ProfessorSection = () => {
           </p>
 
           {/* CTA Button - Luxury Metallic */}
-          <a href="#oferta">
+          <a href="https://pay.hotmart.com/A103352371H">
             <button className="group relative px-12 py-6 rounded-lg font-black text-xl uppercase tracking-wider transition-all duration-300 animate-fade-in flex items-center gap-3 mx-auto overflow-hidden" style={{ boxShadow: 'var(--shadow-gold-intense)' }}>
               <div className="absolute inset-0 bg-gradient-to-r from-caveira-gold via-yellow-400 to-caveira-gold group-hover:from-yellow-400 group-hover:via-caveira-gold group-hover:to-yellow-400 transition-all duration-500" style={{ background: 'var(--gradient-gold)' }}></div>
               <div className="absolute inset-0" style={{ boxShadow: 'var(--shadow-inset-luxury)' }}></div>

@@ -45,7 +45,7 @@ export const GuaranteeSection = () => {
           </div>
 
           <div className="mt-8">
-            <a href="#oferta">
+            <a href="https://pay.hotmart.com/A103352371H">
               <Button className="text-xl px-8 py-6 bg-caveira-gold text-caveira-black hover:bg-caveira-gold/90 animate-hero-badge-pulse">
                 GARANTIR MEU ACESSO
               </Button>
